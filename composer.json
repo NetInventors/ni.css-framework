@@ -1,0 +1,13 @@
+{
+    "name": "netinventors/css-framework",
+    "description": "Net Inventors CSS Framework",
+    "license": "proprietary",
+    "homepage": "http://www.netinventors.de/",
+    "authors": [
+        {
+            "name": "Jan Matthiesen",
+            "email": "jm@netinventors.de",
+            "homepage": "http://www.netinventors.de"
+        }
+    ]
+}
