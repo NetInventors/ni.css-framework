@@ -38,7 +38,7 @@
 .grid.gStyle-3{}
 
 /* Column definition */
-.grid .gCol{display:table-cell;vertical-align: top;}
+.grid > .gCol{display:table-cell;vertical-align: top;}
 
 /* inner padding definition */
 .grid .cPaddingType-1{}
@@ -60,61 +60,61 @@
 
 /* grids */
 .grid.gType-1{}
-.grid.gType-1 .gCol-1{}
-.grid.gType-1 .gCol-1 .gColContent{}
+.grid.gType-1 > .gCol-1{}
+.grid.gType-1 > .gCol-1 > .gColContent{}
 
 /* grid type 2 */
 .grid.gType-2{}
-.grid.gType-2 .gCol:nth-child(1){}
-.grid.gType-2 .gCol:nth-child(1) .gColContent{}
-.grid.gType-2 .gCol:nth-child(2) {}
-.grid.gType-2 .gCol:nth-child(2) .gColContent{}
+.grid.gType-2 > .gCol:nth-child(1){}
+.grid.gType-2 > .gCol:nth-child(1) > .gColContent{}
+.grid.gType-2 > .gCol:nth-child(2) {}
+.grid.gType-2 > .gCol:nth-child(2) > .gColContent{}
 
-.grid.gType-2.gVar-1 .gCol:nth-child(1){width:50%;}
-.grid.gType-2.gVar-1 .gCol:nth-child(1) .gColContent{}
-.grid.gType-2.gVar-1 .gCol:nth-child(2){width:50%;}
-.grid.gType-2.gVar-1 .gCol:nth-child(2) .gColContent{}
+.grid.gType-2.gVar-1 > .gCol:nth-child(1){width:50%;}
+.grid.gType-2.gVar-1 > .gCol:nth-child(1) > .gColContent{}
+.grid.gType-2.gVar-1 > .gCol:nth-child(2){width:50%;}
+.grid.gType-2.gVar-1 > .gCol:nth-child(2) > .gColContent{}
 
-.grid.gType-2.gVar-2 .gCol:nth-child(1){width:40%;}
-.grid.gType-2.gVar-2 .gCol:nth-child(1) .gColContent{}
-.grid.gType-2.gVar-2 .gCol:nth-child(2){width:60%;}
-.grid.gType-2.gVar-2 .gCol:nth-child(2) .gColContent{}
+.grid.gType-2.gVar-2 > .gCol:nth-child(1){width:40%;}
+.grid.gType-2.gVar-2 > .gCol:nth-child(1) > .gColContent{}
+.grid.gType-2.gVar-2 > .gCol:nth-child(2){width:60%;}
+.grid.gType-2.gVar-2 > .gCol:nth-child(2) > .gColContent{}
 
-.grid.gType-2.gVar-3 .gCol:nth-child(1){width:60%;}
-.grid.gType-2.gVar-3 .gCol:nth-child(1) .gColContent{}
-.grid.gType-2.gVar-3 .gCol:nth-child(2){width:40%;}
-.grid.gType-2.gVar-3 .gCol:nth-child(2) .gColContent{}
+.grid.gType-2.gVar-3 > .gCol:nth-child(1){width:60%;}
+.grid.gType-2.gVar-3 > .gCol:nth-child(1) > .gColContent{}
+.grid.gType-2.gVar-3 > .gCol:nth-child(2){width:40%;}
+.grid.gType-2.gVar-3 > .gCol:nth-child(2) > .gColContent{}
 
 /* grid type 3 */
 .grid.gType-3{}
-.grid.gType-3 .gCol:nth-child(1){}
-.grid.gType-3 .gCol:nth-child(1) .gColContent{}
-.grid.gType-3 .gCol:nth-child(2) {}
-.grid.gType-3 .gCol:nth-child(2) .gColContent{}
-.grid.gType-3 .gCol:nth-child(3) {}
-.grid.gType-3 .gCol:nth-child(3) .gColContent{}
+.grid.gType-3 > .gCol:nth-child(1){}
+.grid.gType-3 > .gCol:nth-child(1) > .gColContent{}
+.grid.gType-3 > .gCol:nth-child(2) {}
+.grid.gType-3 > .gCol:nth-child(2) > .gColContent{}
+.grid.gType-3 > .gCol:nth-child(3) {}
+.grid.gType-3 > .gCol:nth-child(3) > .gColContent{}
 
-.grid.gType-3.gVar-1 .gCol:nth-child(1){width:33%;}
-.grid.gType-3.gVar-1 .gCol:nth-child(1) .gColContent{}
-.grid.gType-3.gVar-1 .gCol:nth-child(2){width:33%;}
-.grid.gType-3.gVar-1 .gCol:nth-child(2) .gColContent{}
-.grid.gType-3.gVar-1 .gCol:nth-child(3){width:33%;}
-.grid.gType-3.gVar-1 .gCol:nth-child(3) .gColContent{}
+.grid.gType-3.gVar-1 > .gCol:nth-child(1){width:33%;}
+.grid.gType-3.gVar-1 > .gCol:nth-child(1) > .gColContent{}
+.grid.gType-3.gVar-1 > .gCol:nth-child(2){width:33%;}
+.grid.gType-3.gVar-1 > .gCol:nth-child(2) > .gColContent{}
+.grid.gType-3.gVar-1 > .gCol:nth-child(3){width:33%;}
+.grid.gType-3.gVar-1 > .gCol:nth-child(3) > .gColContent{}
 
 /* grid type 4 */
 .grid.gType-4.gVar-1{}
-.grid.gType-4.gVar-1 .gCol{}
-.grid.gType-4.gVar-1 .gCol:last-child{}
-.grid.gType-4.gVar-1 .gCol .gColContent{}
+.grid.gType-4.gVar-1 > .gCol{}
+.grid.gType-4.gVar-1 > .gCol:last-child{}
+.grid.gType-4.gVar-1 > .gCol > .gColContent{}
 
-.grid.gType-4.gVar-1 .gCol:nth-child(1){width:25%;}
-.grid.gType-4.gVar-1 .gCol:nth-child(1) .gColContent{}
+.grid.gType-4.gVar-1 > .gCol:nth-child(1){width:25%;}
+.grid.gType-4.gVar-1 > .gCol:nth-child(1) > .gColContent{}
 
-.grid.gType-4.gVar-1 .gCol:nth-child(2){width:25%;}
-.grid.gType-4.gVar-1 .gCol:nth-child(2) .gColContent{}
+.grid.gType-4.gVar-1 > .gCol:nth-child(2){width:25%;}
+.grid.gType-4.gVar-1 > .gCol:nth-child(2) > .gColContent{}
 
-.grid.gType-4.gVar-1 .gCol:nth-child(3){width:25%;}
-.grid.gType-4.gVar-1 .gCol:nth-child(3) .gColContent{}
+.grid.gType-4.gVar-1 > .gCol:nth-child(3){width:25%;}
+.grid.gType-4.gVar-1 > .gCol:nth-child(3) > .gColContent{}
 
-.grid.gType-4.gVar-1 .gCol:nth-child(4){width:25%;}
-.grid.gType-4.gVar-1 .gCol:nth-child(4) .gColContent{}
+.grid.gType-4.gVar-1 > .gCol:nth-child(4){width:25%;}
+.grid.gType-4.gVar-1 > .gCol:nth-child(4) > .gColContent{}
