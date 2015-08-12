@@ -47,7 +47,7 @@ nav.vertical ul.level-02{}
 nav.vertical ul.level-03{}
 nav.vertical li{}
 nav.vertical a{
-    color: white;
+    color: inherit;
     font-size:inherit;
     font-family:inherit;
     font-weight: inherit;
