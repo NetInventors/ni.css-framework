@@ -2,6 +2,7 @@
     "name": "netinventors/css-framework",
     "version": "0.0.8",
     "description": "Net Inventors CSS Framework",
+    "type": "component",
     "license": "proprietary",
     "homepage": "http://www.netinventors.de/",
     "authors": [
@@ -10,5 +11,17 @@
             "email": "tp@netinventors.de",
             "homepage": "http://www.netinventors.de"
         }
-    ]
+    ],
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "files": [
+                "grid.css",
+                "nav.css",
+                "normalize.css"
+            ]
+        }
+    }
 }
