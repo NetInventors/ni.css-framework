@@ -1,0 +1,64 @@
+/*
+ * Copyright notice
+ *
+ * (c) 2009-2015 Net Inventors GmbH
+ * All rights reserved
+ *
+ * This script is property of the Net Inventors GmbH and
+ * may not be used in projects not related to the Net Inventors
+ * without explicit permission by the authors.
+ *
+ * @package    netinventors
+ * @subpackage netinventors/nav.css
+ * @author     tpierschel
+ * @copyright  2015 Net Inventors GmbH
+ * @license    proprietary http://www.netinventors.de
+ * @version    GIT: 1
+ * @link       http://www.netinventors.de
+ */
+
+
+nav{}
+nav ul{list-style-type:none;margin:0;padding:0;}
+nav ul li{margin:0;padding:0;}
+
+nav.horizontal{}
+nav.horizontal ul {margin:0;padding:0;display:table;}
+nav.horizontal li {display: table-cell;}
+nav.horizontal li.devider{}
+nav.horizontal li:first-child{}
+nav.horizontal li:last-child{}
+nav.horizontal a{
+    color:inherit;
+    font-size:inherit;
+    font-family:inherit;
+    font-weight: inherit;
+}
+
+nav.horizontal a:hover{}
+nav.horizontal li.cur >a,
+nav.horizontal li.act >a,
+nav.horizontal li.cursub > a{}
+
+nav.vertical {}
+nav.vertical ul{}
+nav.vertical ul.level-01{}
+nav.vertical ul.level-02{}
+nav.vertical ul.level-03{}
+nav.vertical li{}
+nav.vertical a{
+    color: inherit;
+    font-size:inherit;
+    font-family:inherit;
+    font-weight: inherit;
+    display:block;
+}
+
+nav.vertical ul.level-02 a{}
+nav.vertical ul.level-03 a{}
+
+nav.vertical a:hover{}
+nav.vertical li.cur >a,
+nav.vertical li.act >a,
+nav.vertical li.cursub > a{}
+
