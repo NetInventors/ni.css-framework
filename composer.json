@@ -1,10 +1,6 @@
 {
     "name": "netinventors/css-framework",
-<<<<<<< HEAD
     "version": "0.1.0",
-=======
-    "version": "0.0.10",
->>>>>>> 1f29c6f888b12f8b570cc6d8a523dc26b52b674b
     "description": "Net Inventors CSS Framework",
     "type": "component",
     "license": "proprietary",
@@ -16,9 +12,6 @@
             "homepage": "http://www.netinventors.de"
         }
     ],
-    "require": {
-        "robloach/component-installer": "*"
-    },
     "extra": {
         "component": {
             "files": [
